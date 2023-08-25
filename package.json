@@ -6,7 +6,8 @@
   "author": "Masashi Ogawa <masashi.ogawa@lubricate.dev>",
   "license": "MIT",
   "scripts": {
-    "sass": "sass sass/index.scss src/css/index.css"
+    "sass": "sass sass/index.scss src/css/index.css",
+    "watch-sass": "sass --watch sass/index.scss src/css/index.css"
   },
   "dependencies": {
     "sass": "^1.66.1"
