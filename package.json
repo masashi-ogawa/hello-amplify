@@ -1,0 +1,14 @@
+{
+  "name": "hello-amplify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:masashi-ogawa/hello-amplify.git",
+  "author": "Masashi Ogawa <masashi.ogawa@lubricate.dev>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass sass/index.scss src/css/index.css"
+  },
+  "dependencies": {
+    "sass": "^1.66.1"
+  }
+}
