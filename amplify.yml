@@ -4,6 +4,7 @@ frontend:
     # IMPORTANT - Please verify your build commands
     preBuild:
       commands:
+        - nvm use $VERSION_NODE_16
         - yarn install
     build:
       commands:
